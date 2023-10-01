@@ -1,6 +1,4 @@
 #!/bin/bash
 
-TOKEN="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"
-
-huggingface-cli login --token "$TOKEN"
+huggingface-cli login --token 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
     

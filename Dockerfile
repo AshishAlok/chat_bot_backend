@@ -13,7 +13,8 @@ COPY . /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip3 install -r requirements.txt
-
+# cli lgoin
+RUN huggingface-cli login --token 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
 # Expose port 8000 for the Django application
 EXPOSE 8000
 

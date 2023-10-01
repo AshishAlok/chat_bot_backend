@@ -3,10 +3,11 @@ import torch
 
 # Load the tokenizer and text-generation pipeline
 model = "meta-llama/Llama-2-7b-chat-hf"
-HF_TOKEN = "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"
+
+# HF_TOKEN = "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"
 
 
-tokenizer = AutoTokenizer.from_pretrained(model,HF_TOKEN)
+tokenizer = AutoTokenizer.from_pretrained(model)
 
 generator = pipeline(
     "text-generation",
