@@ -17,12 +17,12 @@
 
 **How to run Through terminal :-**
 
-step1:- clone the chat_bot_backend repository on your local machine.
-step2:- go into the folder cloned folded where Dockerfile is present.
+- step1:- clone the chat_bot_backend repository on your local machine.
+- step2:- go into the folder cloned folded where Dockerfile is present.
 
 The below command will create a docker image.
-step3:- run the command in terminal:- docker build -t backend .
+- step3:- run the command in terminal:- docker build -t backend .
 
 
 The below command will run the docker image of the backend in a container
-step4:- docker run -d -p 8000:8000 --name backend-container backend
+- step4:- docker run -d -p 8000:8000 --name backend-container backend
