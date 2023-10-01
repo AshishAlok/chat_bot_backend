@@ -26,3 +26,6 @@ The below command will create a docker image.
 
 The below command will run the docker image of the backend in a container
 - step4:- docker run -d -p 8000:8000 --name backend-container backend
+
+
+After starting the Container you will have to wait for several minutes(depending on the internet speed)  so that the **llama2** can load on the backend and then the server can start.
